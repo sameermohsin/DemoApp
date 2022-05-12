@@ -2,9 +2,9 @@ import React from 'react';
 import {StatusBar, LogBox} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Splash from './source/screens/Splash';
 import {Color} from './source/color/Color';
 import MainTabScreen from './source/screens/MainTabScreen';
+import Splash from './source/screens/Splash/index';
 
 LogBox.ignoreLogs([
   "[react-native-gesture-handler] Seems like you're using an old API with gesture components, check out new Gestures system!",
